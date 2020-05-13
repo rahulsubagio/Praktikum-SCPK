@@ -1,0 +1,18 @@
+
+V1 = IPA
+V2 = IPS
+V3 = BAHASA
+
+C1 = standar nilai di sma tersebut
+C2 = kesesuaian dengan minat dan bakat (1-10->tidaksesuai-sesuai)
+C3 = jumlah saingan
+C4 = kesesuaian dengan permintaan orangtua (1-10->tidaksesuai-sesuai)
+C5 = prospek lulusan jurusan (1-5->buruk-bagus)
+
+k = [0 1 0 1 1] 
+w = [5 4 4 3 2]
+
+keterangan : 
+jadi di project ini tu si siswa bisa memasukkan poin di tabel rating kecocokan berdasarkan kecockan dia 
+dengan poin dan jurusan yang tersedia. nanti rating atau nilai yang dia masukkan akan diolah di rumus 
+trus munculin hasil yang kukotakin merah,,
