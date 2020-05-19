@@ -565,21 +565,11 @@ end;
 
 v1 = S/sum(S);
 
-[vmax,urutan] = max(v1);
-
-if urutan==1,
-    pil = 'IPA';
-end;
-if urutan==2,
-    pil = 'IPS';
-end;
-if urutan==3,
-    pil = 'Bahasa';
-end;
+vmax = max(v1);
 
 v = num2str(v1);
 
-string = sprintf('Selamat %s, jurusan yang tepat untukmu di %s adalah jurusan %s dengan score pertimbangan "IPA IPS Bahasa" : %s ', nama, tujuan, pil, v);
+string = sprintf('Selamat %s, jurusan yang tepat untukmu di %s adalah %s dengan score pertimbangan "V1 V2 V3" : %s ', nama, tujuan, nmax, v);
 set(handles.hasil,'string',(string));
 
 
